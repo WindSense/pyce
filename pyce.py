@@ -17,7 +17,7 @@ def localdict(data):
     for local in data['local']:
         for des in local['des']:
             if type(des) is dict:
-                print des['d']
+                print des['p'] + ' ' + des['d']
             else:
                 print des
 
